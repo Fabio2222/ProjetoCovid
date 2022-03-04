@@ -7,7 +7,7 @@ namespace ProjetoCovid
     {
         static void Main(string[] args) 
         {
-            //instanciando controle fluxo e chama os arquivos
+            //instanciando controle fluxo e chama o arquivo
             ControleFluxo controleFluxo = new ControleFluxo();
             controleFluxo.FilaCovid.LerArq();
             controleFluxo.Internacao.LerArq();
